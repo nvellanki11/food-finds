@@ -1,0 +1,45 @@
+.ban-list {
+    min-width: 180px;
+    padding: 16px;
+    background-color: #fdf6f0;
+    border-left: 2px solid #e8ddd4;
+    font-family: 'Lucida Sans';
+}
+
+.ban-list h2 {
+    font-size: 18px;
+    margin-bottom: 4px;
+}
+
+.ban-list h4 {
+    font-size: 12px;
+    color: #888;
+    font-weight: normal;
+    margin-bottom: 12px;
+}
+
+.ban-list ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+
+.ban-list li button {
+    width: 100%;
+    padding: 6px 10px;
+    background-color: #fde8df;
+    color: #c44d20;
+    border: 1px solid #f0b9a0;
+    border-radius: 6px;
+    font-family: 'Lucida Sans';
+    font-size: 13px;
+    cursor: pointer;
+    text-align: left;
+}
+
+.ban-list li button:hover {
+    background-color: #f8d0bf;
+}

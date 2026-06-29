@@ -1,0 +1,70 @@
+.title {
+    font-family: 'Lucida Sans';
+    color:rgb(0, 0, 0)
+}
+
+.subheader {
+    font-family: 'Lucida Sans';
+}
+
+.centerboard {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 24px;
+    flex: 1;
+}
+
+.meal-card {
+    width: 100%;
+    max-width: 640px;
+    margin-top: 20px;
+}
+
+.tags {
+    gap: 8px;
+    margin: 8px 0;
+}
+
+.button {
+    padding: 10px 24px;
+    font-size: 16px;
+    font-family: 'Lucida Sans';
+    background-color: #e05c2a;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    align-items: center;
+}
+
+.button:hover {
+    background-color: #c44d20;
+}
+
+.tag {
+    margin: 5px;
+    font-size: 13px;
+    font-family: 'Lucida Sans';
+    background-color: #f0ece4;
+    color: #444;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    cursor: default;
+}
+
+.flex {
+    display:flex;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.foodImage {
+    width:50%;
+    height:50%;
+    padding-right: 20px;
+}
+
+.instructions {
+    color:black
+}
